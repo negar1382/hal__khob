@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+*{
+ box-sizing:border-box;
+}
+
+input{
+ width:100%;
+}
+
+img{
+ max-width:100%;
+}
+
+</style>
+</head>
+<body>
+
+<p><b>:) لطفا با لبخند کلیک کنید </b></p>
+
+
+<button onclick="SetUrl();">کلیک کن</button>
+<br><br>
+<img id="MyImage">
+
+<script>
+
+function SetUrl(){
+ var URL = document.getElementById("URL");
+ var MyImage = document.getElementById("MyImage");
+ MyImage.setAttribute("src" , "https://files.free-learn.ir/Tryitself/javascript/dom/files/cat.gif");
+}
+
+</script>
+
+</body>
+</html>
